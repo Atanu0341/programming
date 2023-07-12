@@ -7,17 +7,16 @@ int main(){
     
     int row=1;
 
-    while (row<=n){
-
-        int col=1;
-        while (col<=n){
-            char ch='A'+row+col-2;
-            cout<<ch;
+    while(row<=n){
+        
+        int col=1;  
+        while (col<=n-row+1){
+            cout<<"*";
             col++;
         }
-       cout<<endl;
         row++;
-        
+        cout<<endl;
+
     }
     
     

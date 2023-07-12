@@ -10,7 +10,7 @@ int main(){
     while (row<=n){
 
         int col=1;
-        while (col<=n){
+        while (col<=row){
             char ch='A'+row+col-2;
             cout<<ch;
             col++;
